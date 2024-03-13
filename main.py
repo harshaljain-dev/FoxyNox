@@ -3,11 +3,11 @@ import hashlib
 import os
 from getpass import getpass
 
-from password_manager import add_password, get_password, create_key   
-from password_generator import generate_password
-from password_strength_checker import check_password_strength
-from password_breach_checker import check_password_breach
-from common import print_intro
+from utils.password_manager import add_password, get_password, create_key   
+from utils.password_generator import generate_password
+from utils.password_strength_checker import check_password_strength
+from utils.password_breach_checker import check_password_breach
+from utils.common import print_intro
 
 USERS_FILE = "users.json"
 
